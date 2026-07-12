@@ -1,6 +1,6 @@
 ## **Introduction**
 
-**Picre** is a Playblasts In-Context REviewer designed for animators who use Maya. 
+**Picre** is a Playblasts In-Context REviewer (in developement) designed for animators who use Maya. 
 It is a small, artist-facing tool that make reviewing shots in context faster, without the need to publish on Flow first. 
 It is made of two components: a Playblast Manager and a Playblasts Reviewer.
 
