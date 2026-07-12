@@ -45,6 +45,11 @@ export MAYA_DISABLE_CER=1
 # --- LOCATE THE MAYA EXECUTABLE --------------------------------------------
 MAYA_APP="/Applications/Autodesk/maya${MAYA_VERSION}/Maya.app/Contents/MacOS/Maya"
 
+if [[ ! -x "$MAYA_APP" ]]; then
+  echo "Maya executable not found at: $MAYA_APP"
+  echo "Check MAYA_VERSION or your Autodesk install path."
+  exit 1
+fi
 
 # --- LAUNCH ------------------------------------------------------------
 if [[ -z "$1" ]]; then
