@@ -5,7 +5,7 @@
 #
 # Date = 2026-07-15
 #
-# Description = Describe what this module does.
+# Description = Styling the module arload.py
 #**********************************************************
 
 """ HEADER
